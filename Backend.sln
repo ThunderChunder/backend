@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webservice", "backend\Webservice.csproj", "{078675BA-EA27-488E-A552-8ABA3F60D73B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainLayer", "DomainLayer\DomainLayer.csproj", "{D5BE4FDA-4596-4671-9C36-29B938B96DE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datalayer", "Datalayer\Datalayer.csproj", "{F8BC5A70-01E1-4BA1-9480-5B15F278FF53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{078675BA-EA27-488E-A552-8ABA3F60D73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078675BA-EA27-488E-A552-8ABA3F60D73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078675BA-EA27-488E-A552-8ABA3F60D73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078675BA-EA27-488E-A552-8ABA3F60D73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BE4FDA-4596-4671-9C36-29B938B96DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BE4FDA-4596-4671-9C36-29B938B96DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BE4FDA-4596-4671-9C36-29B938B96DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BE4FDA-4596-4671-9C36-29B938B96DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BC5A70-01E1-4BA1-9480-5B15F278FF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BC5A70-01E1-4BA1-9480-5B15F278FF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BC5A70-01E1-4BA1-9480-5B15F278FF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BC5A70-01E1-4BA1-9480-5B15F278FF53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B746E96C-0FFE-4196-92F8-17C6B31FF7FC}
+	EndGlobalSection
+EndGlobal
